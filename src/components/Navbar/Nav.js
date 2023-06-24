@@ -39,92 +39,89 @@ const style = {
             <React.Fragment>
                 <div
                     className='navs_tab'>
-                        <div 
-                            className='row'>
-                                <div
-                                    className='col-6'>
-                                        <h2 
-                                            className='logo_name'>
-                                            Corvo Coffee
-                                        </h2>
-                                    </div>
-                                <div
-                                    className='col-6'>                                        
-                                    <div 
-                                        className="topnav" 
-                                        id="myTopnav">
-                                    <a 
-                                        className="active"
-                                        onClick={handleOpen}
-                                        style={
-                                            {
-                                                cursor:"pointer",
-                                            }
-                                        }>
-                                         <i 
-                                            class="fa fa-envelope" 
-                                                aria-hidden="true"
-                                                    style={
-                                                        {
-                                                            padding:"5px"
-                                                        }
-                                                    }>
-
-                                                </i>
-                                            Contact us
-                                            </a>
-
-                                            <Modal
-                                                open={open}
-                                                
-                                                aria-labelledby="modal-modal-title"
-                                                aria-describedby="modal-modal-description"
-                                            >
-                                                <Box sx={style}>
-                                                <Typography id="modal-modal-title" variant="h6" component="h2">
-                                                    CONTACT US
-                                                </Typography>
-                                                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                                    <TextField id="standard-basic" label="Name" variant="standard" />
-                                                    <TextField id="standard-basic" label="Phone number" variant="standard" />
-                                                    <TextField id="standard-basic" label="Email " required variant="standard" />
-                                                    <TextField id="standard-basic" label="How can we help you?" variant="standard" />
-                                                    <Stack direction="row" spacing={2}>
-                                                    <Button variant="contained" endIcon={<SendIcon />} id='btn-down' onClick={handleClose}>
-                                                        Submit
-                                                    </Button>
-                                                    </Stack>
-                                                </Typography>
-                                                </Box>
-                                            </Modal>
-                                    <a 
-                                        href={mapUrl}
-                                        target={'_blank'}>
-                                            <i 
-                                                class="fa fa-chevron-circle-right" 
+                        <div className="container">
+                            <div
+                                className='row'>
+                                    <div
+                                        className='col-6'>
+                                            <h2
+                                                className='logo_name'>
+                                                Corvo Coffee
+                                            </h2>
+                                        </div>
+                                    <div
+                                        className='col-6'>
+                                        <div
+                                            className="topnav"
+                                            id="myTopnav">
+                                        <a
+                                            className="active"
+                                            onClick={handleOpen}
+                                            style={
+                                                {
+                                                    cursor:"pointer",
+                                                }
+                                            }>
+                                             <i
+                                                class="fa fa-envelope"
                                                     aria-hidden="true"
                                                         style={
-                                                        {
-                                                            padding:"5px"
-                                                        }
-                                                    }>
-
+                                                            {
+                                                                padding:"5px"
+                                                            }
+                                                        }>
                                                     </i>
-                                            Get Directions
-                                            </a>
-                                    <a 
-                                        href="javascript:void(0);"
-                                             className="icon" 
-                                                onClick={myFunction}>
-                                        <i 
-                                            className="fa fa-bars">
-
-                                            </i>
-                                    </a>
-                                    </div>
-
-                                    </div>
-                            </div>
+                                                Contact us
+                                                </a>
+                                                <Modal
+                                                    open={open}
+                            
+                                                    aria-labelledby="modal-modal-title"
+                                                    aria-describedby="modal-modal-description"
+                                                >
+                                                    <Box sx={style}>
+                                                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                                                        CONTACT US
+                                                    </Typography>
+                                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                        <TextField id="standard-basic" label="Name" variant="standard" />
+                                                        <TextField id="standard-basic" label="Phone number" variant="standard" />
+                                                        <TextField id="standard-basic" label="Email " required variant="standard" />
+                                                        <TextField id="standard-basic" label="How can we help you?" variant="standard" />
+                                                        <Stack direction="row" spacing={2}>
+                                                        <Button variant="contained" endIcon={<SendIcon />} id='btn-down' onClick={handleClose}>
+                                                            Submit
+                                                        </Button>
+                                                        </Stack>
+                                                    </Typography>
+                                                    </Box>
+                                                </Modal>
+                                        <a
+                                            href={mapUrl}
+                                            target={'_blank'}>
+                                                <i
+                                                    class="fa fa-chevron-circle-right"
+                                                        aria-hidden="true"
+                                                            style={
+                                                            {
+                                                                padding:"5px"
+                                                            }
+                                                        }>
+                                                        </i>
+                                                Get Directions
+                                                </a>
+                                        <a
+                                            href="javascript:void(0);"
+                                                 className="icon"
+                                                    onClick={myFunction}>
+                                            <i
+                                                className="fa fa-bars">
+                                                </i>
+                                        </a>
+                                        </div>
+                                        </div>
+                                </div>
+                        </div>
                     </div>
             </React.Fragment>
         );

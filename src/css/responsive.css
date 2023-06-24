@@ -3,4 +3,12 @@
       flex-direction: column;
       transform: translateX(20px);
     }
+    .logo_name{
+      width: 200px;
+    }
+    .btn-change{
+      transform: translateX(-20px);
+      width: 100px !important;
+      height: 40px !important;
+    }
   }

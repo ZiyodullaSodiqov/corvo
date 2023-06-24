@@ -1,6 +1,50 @@
 import React from 'react';
+import '../../css/styles.css';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
     function Img() {
+        var settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SampleNextArrow />,
+            initialSlide: 0,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  infinite: true,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 700,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  initialSlide: 2
+                }
+              },
+            ]
+          };
+
+          function SampleNextArrow(props) {
+            const { className, style, onClick } = props;
+            return (
+              <div
+                className={className}
+                style={{ ...style, display: "block", background: "red" }}
+                onClick={onClick}
+              />
+            );
+          }
         return(
             <React.Fragment>
                 <div className='container'
@@ -11,16 +55,34 @@ import React from 'react';
                     }>
                     <div className='row'>
                         <div
-                            className='col-12' 
-                            style={
-                                {
-                                    background:"url(https://lh3.googleusercontent.com/-mc30334-n2U/WRiN3a8kufI/AAAAAAABg-w/M3qu5W1-M78ovba5VEqLYq-ozLkcvW3BwCLIB/w1080-h608-p-k-no-v0/)",
-                                    height:"607px",
-                                    backgroundSize:"cover",
-                                    borderRadius:"10px",
-                                }
-                            }>
+                            className='col-16' >
+                                    <Slider {...settings}>
 
+                                    <div className='slick-One'>
+                                        {/* No code */}
+                                    </div>
+
+                                    <div className='slick-two'>
+                                        {/* No code */}
+                                    </div>
+
+                                    <div className='slick-three'>
+                                        {/* No code */}
+                                    </div>
+
+                                    <div className='slick-for'>
+                                        {/* No code */}
+                                    </div>
+
+                                    <div className='slick-five'>
+                                        {/* No code */}
+                                    </div>
+
+                                    <div className='slick-six'>
+                                        {/* No code */}
+                                    </div>
+
+                                    </Slider>
                         </div>
                     </div>
                 </div>

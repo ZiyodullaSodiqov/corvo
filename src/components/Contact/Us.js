@@ -19,6 +19,7 @@ import React from 'react';
                                             fontWeight:"bolder",
                                             textAlign:"center",
                                             textDecoration:"overline",
+                                            fontFamily:" 'Ultra', serif",
                                         }}>
                                         CONTACT US
                                     </h2>

@@ -41,6 +41,7 @@ const style = {
                                         <p 
                                             style={{
                                                 textAlign:"center",
+                                                fontFamily:" 'Slabo 27px', serif",
                                             }}>
                                             Cafe in New York
                                              <br/>

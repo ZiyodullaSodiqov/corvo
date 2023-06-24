@@ -20,7 +20,13 @@ import Stack from '@mui/material/Stack';
                             className='row responDiv'>
                                 <div 
                                     className='col-6'>
-                                        <h2>
+                                        <h2
+                                            style={
+                                                {
+                                                    fontFamily:"'Slabo 27px', serif",
+                                                    fontWeight:"600"
+                                                }
+                                            }>
                                             Address
                                             </h2>
                                         <Stack 
@@ -43,7 +49,13 @@ import Stack from '@mui/material/Stack';
                                     </div>
                                 <div 
                                     className='col-6'>
-                                        <h2>
+                                        <h2
+                                            style={
+                                                {
+                                                    fontFamily:"'Slabo 27px', serif",
+                                                    fontWeight:"600"
+                                                }
+                                            }>
                                         Business Hours
                                         </h2>
                                         <table>
