@@ -7,6 +7,7 @@ import Modal from '@mui/material/Modal';
 import { TextField } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
+import FounderImage from './IMG_7252.JPG';
 
 const style = {
     position: 'absolute',
@@ -31,24 +32,38 @@ const style = {
                     className='container'>
                         <div 
                             className='row'>
-                                <div
-                                    className='col-12'>
-                                        <h1
-                                            className='text_center'>
-                                            HUSEIN ATTAR
-                                        </h1>
-
-                                        <p 
+                                <div className='col-6'>
+                                        <img
+                                            className="rounded mx-auto d-block"
+                                            src={FounderImage}
+                                            alt={'Founder'}
                                             style={{
-                                                textAlign:"center",
-                                                fontFamily:" 'Slabo 27px', serif",
-                                            }}>
-                                            Shop in Uzbekistan
-                                             <br/>
-                                            Open today until 7:00 PM
-                                        </p>
+                                                width:"600px",
+                                                marginTop:"60px",
+                                        
+                                            }}
+                                            />
+                                </div>
+                                <div
+                                    className='col-6'>
                                         <div 
-                                            className="d-grid gap-2 col-2 mx-auto">
+                                            className="transformY6">
+                                            <h1
+                                                className='text_center'>
+                                                HUSEIN ATTAR
+                                            </h1>
+                                            <p
+                                                style={{
+                                                    textAlign:"center",
+                                                    fontFamily:" 'Slabo 27px', serif",
+                                                }}>
+                                                Shop in Uzbekistan
+                                                 <br/>
+                                                Open today until 7:00 PM
+                                            </p>
+                                        </div>
+                                        <div 
+                                            className="d-grid gap-2 col-2 mx-auto trY3">
                                             <Button 
                                                 onClick={handleOpen}
                                                 className="btn-change">

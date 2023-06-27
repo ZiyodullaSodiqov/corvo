@@ -97,7 +97,8 @@ const style = {
                                                     </Box>
                                                 </Modal>
                                         <a
-                                            href={mapUrl}
+                                            
+                                            href={'tel:93-739-25-80'}
                                             target={'_blank'}>
                                                 <i
                                                     class="fa fa-chevron-circle-right"
@@ -108,7 +109,7 @@ const style = {
                                                             }
                                                         }>
                                                         </i>
-                                                Get Directions
+                                                        93 739 25 80
                                                 </a>
                                         <a
                                             href="javascript:void(0);"
