@@ -40,7 +40,7 @@ import "slick-carousel/slick/slick-theme.css";
             return (
               <div
                 className={className}
-                style={{ ...style, display: "block", background: "red" }}
+                style={{ ...style, display: "block", background: "gray" }}
                 onClick={onClick}
               />
             );

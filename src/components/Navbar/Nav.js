@@ -46,7 +46,7 @@ const style = {
                                         className='col-6'>
                                             <h2
                                                 className='logo_name'>
-                                                Corvo Coffee
+                                                HUSEIN ATTAR
                                             </h2>
                                         </div>
                                     <div

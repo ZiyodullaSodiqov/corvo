@@ -20,7 +20,7 @@
   }
 
   .logo_name {
-    width: 200px;
+    width: 240px;
     color: #88b06a;
     font-weight: bold;
     font-size: 25px;
@@ -136,7 +136,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position-y: -50px; */
-  background-image: url('https://i.pinimg.com/564x/de/70/e9/de70e97e57073ccc141876099df293ee.jpg');
+  background-image: url('https://i.pinimg.com/564x/bd/f2/01/bdf20190e092a98470fc7d6192d11df3.jpg');
 }
 .slick-two{
   height: 500px;
@@ -144,7 +144,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position-y: -50px; */
-  background-image: url('https://i.pinimg.com/564x/54/91/ef/5491ef84ec62e086b0eee530212148ce.jpg');
+  background-image: url('https://i.pinimg.com/736x/9a/3e/54/9a3e5479dd4ff67bf9a6282af1fa79bc.jpg');
 }
 .slick-three{
   height: 500px;
@@ -152,7 +152,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position-y: -50px;   */
-  background-image: url('https://i.pinimg.com/564x/da/6f/3a/da6f3a6305596079b891bdb35d53b5f4.jpg');
+  background-image: url('https://i.pinimg.com/564x/f2/59/3e/f2593e5bd056a93dc419e6812d5434a2.jpg');
 }
 
 .slick-for{
@@ -160,7 +160,7 @@ a{
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('https://i.pinimg.com/564x/eb/77/c0/eb77c05c1b7116f5a6402ad32c6993d0.jpg');
+  background-image: url('https://i.pinimg.com/564x/50/cc/35/50cc35116ea7fc73a63147eb9f8a9a6d.jpg');
 }
 
 .slick-five{
@@ -169,7 +169,7 @@ a{
   background-size: cover;
   /* background-position-y: 50px; */
   background-repeat: no-repeat;
-  background-image: url('https://i.pinimg.com/564x/37/f7/1a/37f71a732009e20e58dd584b2f005110.jpg');
+  background-image: url('https://i.pinimg.com/564x/6b/70/6e/6b706e68a1bae8b8993712a663f6d82d.jpg');
 }
 
 .slick-six{
@@ -178,7 +178,7 @@ a{
   background-size: cover;
   /* background-position-y: -50px; */
   background-repeat: no-repeat;
-  background-image: url('https://i.pinimg.com/564x/23/32/c0/2332c0c55d8818fe04b0913fc0a84cee.jpg');
+  background-image: url('https://i.pinimg.com/564x/c0/b6/17/c0b617eb7ed1dba986be09ff74250394.jpg');
 }
 .slick-slide , .slick-active ,  .slick-current{
   padding: 1px;

@@ -35,7 +35,7 @@ const style = {
                                     className='col-12'>
                                         <h1
                                             className='text_center'>
-                                            Corvo Coffee
+                                            HUSEIN ATTAR
                                         </h1>
 
                                         <p 
@@ -43,7 +43,7 @@ const style = {
                                                 textAlign:"center",
                                                 fontFamily:" 'Slabo 27px', serif",
                                             }}>
-                                            Cafe in New York
+                                            Shop in Uzbekistan
                                              <br/>
                                             Open today until 7:00 PM
                                         </p>

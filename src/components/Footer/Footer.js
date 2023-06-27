@@ -43,8 +43,8 @@ import Stack from '@mui/material/Stack';
                                         <p
                                             className='p-link'>
                                         542 9th Avenue <br />
-                                        New York, NY 10018 <br />
-                                        USA
+                                        Uzbekistan, NY 10018 <br />
+                                        UZB
                                         </p>
                                     </div>
                                 <div 
