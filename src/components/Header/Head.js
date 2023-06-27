@@ -31,10 +31,10 @@ const style = {
                 <div 
                     className='container'>
                         <div 
-                            className='row'>
+                            className='row resHXr4'>
                                 <div className='col-6'>
                                         <img
-                                            className="rounded mx-auto d-block"
+                                            className="rounded mx-auto d-block noworkingImage"
                                             src={FounderImage}
                                             alt={'Founder'}
                                             style={{

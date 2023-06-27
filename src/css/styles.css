@@ -188,9 +188,9 @@ a{
   width: 10000px !important;
 }
 
-.trY3{
+/* .trY3{
   transform: translateY(150px);
-}
+}*/
 .transformY6{
-  transform: translateY(150px);
-}
+  margin-top: 200px;
+} 
