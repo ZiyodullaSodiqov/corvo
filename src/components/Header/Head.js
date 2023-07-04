@@ -56,7 +56,8 @@ const style = {
                                                 style={{
                                                     textAlign:"center",
                                                     fontFamily:" 'Slabo 27px', serif",
-                                                }}>
+                                                }}
+                                                className='responsive_Xcr1'>
                                                 Shop in Uzbekistan
                                                  <br/>
                                                 Open today until 7:00 PM

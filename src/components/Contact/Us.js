@@ -45,6 +45,6 @@ import React from 'react';
                     </div>
             </React.Fragment>
         )
-    }
+}
 
 export default Us;

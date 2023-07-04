@@ -50,7 +50,7 @@ const style = {
                                             </h2>
                                         </div>
                                     <div
-                                        className='col-6'>
+                                        className='col-6 resCol6OOpd'>
                                         <div
                                             className="topnav"
                                             id="myTopnav">
@@ -99,7 +99,8 @@ const style = {
                                         <a
                                             
                                             href={'tel:93-739-25-80'}
-                                            target={'_blank'}>
+                                            target={'_blank'}
+                                            className='responsive_tpK1'>
                                                 <i
                                                     class="fa fa-chevron-circle-right"
                                                         aria-hidden="true"
